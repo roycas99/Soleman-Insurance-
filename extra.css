@@ -1,0 +1,26 @@
+#map{
+    position: relative;
+    float: right;
+
+
+
+}
+body
+{
+    background-image: url(/images/mountain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:pink;
+    font-size: Bold;
+    font-family: 'Roboto', sans-serif;
+
+}
+table{
+    text-align: left;
+}
+table,th,td{
+    padding: 10px;
+    border: 1px solid rgb(19, 170, 175);
+    border-collapse: collapse;
+    border-spacing: 100px;
+}
