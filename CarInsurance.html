@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="styles.css" /> -->
+    <link rel="stylesheet" href="extra.css">
+  </head>
+  <div id="bodycar">
+  <body >
+  <p>Add your details:</p>
+  <br />
+  <br />
+  <form class="container">
+  <label for="fName" style="border: 3px solid red;"> First Name:</label>
+  <input type="text" id="fname" name=" first name" />
+  <br />
+  <br />
+  <label for="lName" style="border: 3px solid blue"> Last Name:</label>
+  <input type="text" id="lname" name="last name" />
+  <br />
+  <br />
+  <label for="Dob">Date Of Birth:</label>
+  <input type="date" id="dob" name="DOB" />
+  <br />
+  <br />
+  <label for="">License Number :</label>
+  <input type="Lcs" id="lc" name="LS" maxlength="2" size="2" />
+  <br />
+  <br />
+  <label for="">VIN Number :</label>
+  <input type="text" id="vn" name="VN" maxlength="16" size="16" />
+  <br />
+  <br />
+  <label for="phone">Phone Number:</label>
+  <input
+  type="tel"
+  id="phone"
+  name="phone"
+  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+  required
+  />
+  <small>Format: 123-456-7890</small>
+  <br />
+  <br />
+  <label for="gender"> Gender:</label>
+  <input type="radio" id="male" name="gender" value="male" />
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female" />
+  <label for="female">Female</label>
+  <input type="radio" id="other" name="gender" value="other" />
+  <label for="other">Other</label>
+  </form>
+  </body>
+</div>
+</html>
