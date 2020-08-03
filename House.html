@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="extra.css" />
+  </head>
+  <body>
+    <table>
+      <caption style="font-size: larger; background-color: blue;">
+        Office Schedule
+      </caption>
+      <tr>
+        <th>Days</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wedsnday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+        <th>Sunday</th>
+      </tr>
+      <tr>
+        <th>Open</th>
+        <td>1:00 Pm</td>
+        <td>1:00 pm</td>
+        <td>1:00 Pm</td>
+        <td>1:00 Pm</td>
+        <td>Closed</td>
+        <td>1:00 Pm</td>
+        <td>1:00 pm</td>
+      </tr>
+      <tr>
+        <th>Close</th>
+        <td>8:00 Pm</td>
+        <td>8:00 pm</td>
+        <td>8:00 Pm</td>
+        <td>8:00 Pm</td>
+        <td>Closed</td>
+        <td>8:00 Pm</td>
+        <td>8:00 pm</td>
+      </tr>
+    </table>
+    <h2>i am experiment javascript</h2>
+    <button onclick="myFunction()">hide the elemenent</button>
+    <h2 class="city">London</h2>
+    <p>London is the capital of England</p>
+    <h2 class="city">Mogadishu</h2>
+    <p>Mogadishu is the capital of Somalia</p>
+    <h2 class="city">Badhan</h2>
+    <p>Badhan is the capital of Sanaag region</p>
+    <script>
+      function myFunction() {
+        var x = document.getElementsByClassName("city");
+        for (var i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+      }
+    </script>
+    <iframe src="demo iframe.html" frameborder="0" name="n"></iframe>
+    <p><a href="index.htm" target="n"> www </a></p>
+  </body>
+</html>
