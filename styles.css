@@ -1,0 +1,102 @@
+body{
+  background-color: #ffffff;
+  /* background-image: url(images/backg.jpg); */
+  /* background-size: cover; */
+  color: #325050;
+  background: #fff;
+  font-family: 'Libre Baskerville', sans-serif;
+  font-size: 100%;
+}
+h1.heading {
+  text-align: center;
+  background-image: url(/images/backg.jpg);
+  color: white;
+  margin: 0.01;
+  width: 100%;
+  padding-top: 0;
+  padding-bottom: 5px;
+  border-bottom: none;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 3.2em;
+  text-transform: uppercase;
+}
+#container1{
+  position: relative;
+  background-color: gray;
+  overflow: auto;
+}
+aside{
+  border: 10px solid black;
+  color: blue;
+  width: 100%;
+  padding:10px;
+  margin-bottom: 10px;;
+
+  clear: both;
+  font-style: italic;
+  background-color: lightgray;
+  font-size: 2vw;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: green;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+li a {
+  display: inline;
+ color: white;
+  font-size: larger;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+#opening {
+  margin-top:0px;
+  position: relative;
+  font-size: larger;
+  color: white;
+  width: 50%;
+  left: 25%;
+  box-sizing: border-box;
+  border: 10px solid;
+  padding:10px;
+  background-color: green;
+  border-color: black;
+  text-transform: capitalize;
+}
+a:link{
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited{
+  color:white;
+  background-color: transparent;
+  text-decoration: none;
+
+}
+a.con:visited{
+  color:green;
+}
+a:hover{
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active{
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
