@@ -1,0 +1,9 @@
+.main {
+min-height: 93vh;
+display: flex;
+align-items: center;
+background-image: url("/src/Media/pink.jpg");
+background-position: center;
+background-size: cover;
+
+}
